@@ -2,26 +2,39 @@ void main() {
   // Task 1: Create a function that takes in two integers and returns their sum
   int add(int a, int b) {
     // TODO: Implement function
+    return a + b;
   }
 
   // Task 2: Create a function that takes in a string and returns its length
   int getStringLength(String str) {
     // TODO: Implement function
+    return str.length;
   }
 
   // Task 3: Create a function that takes in a list of integers and returns the sum of all even numbers in the list
   int sumOfEvens(List<int> numbers) {
     // TODO: Implement function
+    for (var i = 0; i < numbers.length; i++) {
+      sum = 0;
+      sum += numbers[i];
+      return sum;
+    }
   }
 
   // Task 4: Create a function that takes in an integer and returns true if it's even and false otherwise
   bool isEven(int number) {
     // TODO: Implement function
+    if (number%2 == 0) {
+      return true;
+    } else {
+      return false;
+    }
   }
 
   // Task 5: Create a function that takes in a list of strings and returns a new list with all strings in uppercase
   List<String> convertToUppercase(List<String> strings) {
     // TODO: Implement function
+    
   }
 
   // Task 6: Create a function that takes in a list of integers and returns the highest number in the list
